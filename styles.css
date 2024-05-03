@@ -12,6 +12,7 @@ body {
 .container {
     max-width: 100%;
     padding: 0 20px;
+    text-align: center;
 }
 
 header {
@@ -30,13 +31,13 @@ nav {
 nav ul {
     list-style-type: none;
     display: flex;
-    align-items: center; /* Para alinhar os itens verticalmente */
+    align-items: center; 
 }
 
 nav ul.left-menu {
     order: -1;
     font-size: 25px;  
-    padding: 50px 0; /* Removido o padding horizontal */
+    padding: 50px 0; 
 }
 
 nav ul.left-menu li {
@@ -70,21 +71,50 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    height: 200px;
 }
 
 main {
-    color: #ffffffbe;
+    color: #fff;
     font-size: 30px;
 }
 
 .texto-apresentação {
     text-align: center;
     padding: 100px;
-    color: #ffffffbe;
+    color: #fff;
     font-size: 30px;
 }
-
-a {
+a{
     color: inherit;
     text-decoration: none; 
+}
+.index-tutoriais{
+    margin-left: 100px;
+}
+.texto{
+    margin-left: 250px;
+}
+.index-noticias{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 100px;
+    flex-direction: column;
+    padding-right: 100px;
+}
+.texto-noticias{
+    padding-right: 70px;
+}
+.index-bibliografias{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.index-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+    margin-bottom: 100px;
 }

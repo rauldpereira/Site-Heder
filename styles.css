@@ -87,3 +87,14 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.bibliografia-superior, .bibliografia-inferior {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 25px;
+    text-align: center;
+}
+.bibliografia-inferior img, .bibliografia-superior img{
+    width: 465px;
+    height: 474px;
+}

@@ -1,0 +1,38 @@
+.titulo {
+    color: #EEEEEE;
+    margin-top: 10px;
+    text-align: center;
+}
+.subtitulo {
+    color: #EEEEEE;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+p{
+    color: #dfdede;  
+    margin: 15px;
+    font-size: 25px;
+}
+h3{
+    color: white;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.imagem-container{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 440px;
+    height: 420px;
+}
+.container-sobre{
+    margin: 50px;
+}
+.contate{
+    margin-top: 45px;
+}
+h3{
+    margin-top: 45px;
+    font-family: "Poetsen One", sans-serif;
+}

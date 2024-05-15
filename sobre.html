@@ -4,31 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boxing World</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/sobre.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <header>
         <div>
             <nav>
-                <ul class="left-menu">
+                <a class="logo" href="index.html">Boxing World</a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
                     <li><a href="index.html">Início</a></li>
                     <li><a href="tutorial.html">Tutoriais</a></li>
                     <li><a href="noticias.html">Notícias</a></li>
-                </ul>
-                <div class="central">Boxing World</div>
-                <ul class="right-menu">
-                    <li><a href="bibliografias.html">Bibliografias</a></li>
-                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href="biografias.html">Biografia</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     
-    <main>
-        
-
+    <main class="container-sobre">
+        <h3 class="titulo">Sobre nós</h3>
+        <p>Bem-vindo ao Boxing World, o seu portal definitivo para notícias, análises e cobertura exclusiva do mundo do boxe. Fundada em 2024, nossa missão é trazer para os fãs do esporte uma experiência imersiva, com informações atualizadas e conteúdo de qualidade sobre tudo o que acontece nos ringues ao redor do mundo.</p>
+        <p>Desde o nosso lançamento, nos dedicamos a oferecer uma visão aprofundada do boxe, desde lutas locais até campeonatos mundiais. Com uma equipe apaixonada por esportes, composta por jornalistas especializados e desenvolvedores inovadores, garantimos que você esteja sempre no centro da ação.</p>
+        <div class="imagem-container">
+            <img src="imgs-sobre/boxingworld.png" alt="Logo da empresa">
+        </div>
+        <h4 class="subtitulo">Nossa equipe</h4>
+        <p>Nossa equipe de jornalismo está sempre no campo, trazendo notícias frescas, entrevistas exclusivas e análises detalhadas. Eles são os olhos e ouvidos do Boxing World, garantindo que você receba conteúdo confiável e de alta qualidade.</p>
+        <p>Por trás das cenas, nossa equipe de desenvolvimento trabalha incansavelmente para manter nosso site e aplicativos funcionando perfeitamente. Eles são os arquitetos digitais que possibilitam uma experiência de usuário suave e interativa, permitindo que você acesse nosso conteúdo de qualquer lugar, a qualquer hora.</p>
+        <h4 class="subtitulo">Patrocínio e Parcerias</h4>
+        <p>No Boxing World, acreditamos no potencial dos atletas e na paixão que move o boxe. É por isso que temos orgulho de patrocinar o lutador Pedro Kvacek, uma promessa do boxe que já está deixando sua marca no cenário esportivo. Acompanhamos de perto sua jornada, trazendo relatos exclusivos de suas lutas e conquistas.</p>
+        <div class="imagem-container">
+            <img src="imgs-sobre/Pedro-patrocinio.png" alt="Atleta patrocinado">
+        </div>
+        <h4 class="titulo contate">Conecte-se Conosco</h4>
+        <p>No Boxing World, sua opinião e seu entusiasmo pelo boxe são o que nos impulsionam. Convidamos você a se juntar à nossa comunidade, compartilhar suas ideias e fazer parte da nossa história. Siga-nos nas redes sociais e nunca perca um golpe.</p>
+        <h3>Boxing World - Onde os fãs de boxe se encontram.</h3>
     </main>
 
     <footer>
@@ -37,5 +59,6 @@
         </div>
     </footer>
 
+    <script src="mobile-navbar.js"></script>
 </body>
 </html>

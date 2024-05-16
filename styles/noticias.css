@@ -1,6 +1,7 @@
 body {
     overflow-x: hidden;
 }
+
 .container-noticia {
     display: flex;
     flex-direction: row;
@@ -107,6 +108,9 @@ p {
 }
 
 @media (max-width: 768px) {
+    main{
+        margin: 20px;
+    }
     .container-noticia {
         flex-direction: column;
         align-items: center;

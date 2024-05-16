@@ -51,3 +51,31 @@ main{
     text-decoration: underline;
     margin-bottom: 20px;
 }
+@media screen and (max-width: 768px) {
+    .cards {
+      width: 90%; 
+      margin: 20px auto; 
+      min-height: auto; 
+    }
+  
+    .cards img {
+      border-radius: 15px 15px 0 0; 
+    }
+  
+    .cards h1 {
+      font-size: 25px; 
+    }
+  
+    .cards h2 {
+      font-size: 18px; 
+    }
+  
+    .cards p {
+      font-size: 14px; 
+      margin: 10px; 
+    }
+  
+    .cards a {
+      margin-bottom: 10px; 
+    }
+  }

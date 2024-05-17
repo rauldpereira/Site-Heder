@@ -25,7 +25,7 @@ main {
   justify-content: space-around;
 }
 
-main>h1 {
+main > h1 {
   text-align: center;
   width: 100%;
   color: #fff;
@@ -41,40 +41,49 @@ main>h1 {
   border: 18px;
   padding: 20px;
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 iframe {
-  margin: 15px;
+  margin: 15px auto;
   max-width: 100%;
-  height: auto;
+  width: 420px;
+  height: 315px;
+  
 }
 
 p {
   font-size: 20px;
 }
 
-@media screen and (min-width: 1024px) {
-  iframe {
-      width: 420px;
-      height: 315px;
+@media screen and (max-width: 1024px) {
+  main {
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
   }
-}
-
-@media screen and (max-width: 1023px) {
+  .indv-cards {
+    width: calc(100% - 30px);
+    padding: 25px;
+    max-width: none;
+  }
   iframe {
-      width: 320px;
-      height: 215px;
-      
+    width: 320px;
+    height: 215px;
   }
 }
 
 @media screen and (max-width: 600px) {
   main {
     margin: 10px;
-  } 
+    justify-content: center;
+    align-items: center;
+  }
   .indv-cards {
-      width: calc(100% - 30px);
-      padding: 25px;
-      max-width: none;
+    width: calc(100% - 30px);
+    padding: 25px;
+    max-width: none;
   }
 }

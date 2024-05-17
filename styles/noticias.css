@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    margin-top: 12vh;
 }
 
 .container-noticia {
@@ -11,22 +12,24 @@ body {
     margin: 20px auto;
     justify-content: space-between;
     overflow-x: hidden;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
 }
 
 .noticia-principal {
     background-image: url('../imgs-noticias/tysonPaul.jpg');
     background-size: cover;
     background-position: center;
-    width: 66.66%;
+    width: 66%;
     border-radius: 15px;
     position: relative;
-    padding-top: 37.5%;
+
 }
 
 .noticias-sec {
     display: flex;
     flex-direction: column;
-    width: 31.33%;
+    width: 31%;
     justify-content: space-between;
 }
 
@@ -34,13 +37,14 @@ body {
     position: relative;
     background-size: cover;
     background-position: center;
-    padding-top: 50%;
+    padding-top: 59%;
     width: 100%;
     border-radius: 15px;
 }
 
 .not1 {
     background-image: url('../imgs-noticias/anderson.jpeg');
+    margin-bottom: 10px;
 }
 
 .not2 {
@@ -56,9 +60,6 @@ body {
     text-align: center;
     text-shadow: 0 1px 3px rgba(0, 0, 0, .8);
     color: #fff;
-}
-
-.texto-sec {
     font-size: 25px;
 }
 
@@ -83,6 +84,7 @@ body {
     width: 100%;
     max-width: 800px;
     align-items: center;
+    border-bottom: 1px solid #ccc;
 }
 
 .cards-noti img {
@@ -108,35 +110,49 @@ p {
 }
 
 @media (max-width: 768px) {
-    main{
+    main {
         margin: 20px;
     }
     .container-noticia {
         flex-direction: column;
         align-items: center;
+        width: calc(100% - 20px);
     }
-
-    .noticia-principal, .noticias-sec {
+    .noticia-principal, .not1, .not2 {
         width: 100%;
+        max-width: 620px;
+        margin-bottom: 20px;
+        padding-top: 59%;
+        background-size: cover;
+        background-position: center;
     }
-
     .noticias-sec {
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 320px;
     }
-
+    .texto-principal, .texto-sec{
+        font-size: 20px;
+    }
     .not1, .not2 {
-        width: 48%;
-        margin: 1%;
+        width: 100%;
+        max-width: 320px;
+        margin-bottom: 20px;
     }
-
     .cards-noti {
         flex-direction: column;
         align-items: center;
+        margin-bottom: 20px;
     }
-
     .cards-noti img {
         margin-right: 0;
         margin-bottom: 10px;
+    }
+    .container-noticia {
+        margin-bottom: 40px;
+    }
+    .cards-noti {
+        padding-bottom: 30px;
     }
 }
